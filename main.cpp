@@ -6,6 +6,10 @@
 	https://github.com/P5yl0/TeraEmulator_2117a/tree/master/Tera_Emulator_Source_2117/GameServer/Crypt
 */
 
+#ifndef __forceinline
+#define __forceinline __attribute__((always_inline))
+#endif
+
 #include <node.h>
 #include <node_buffer.h>
 #include <node_object_wrap.h>
