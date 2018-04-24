@@ -7,7 +7,7 @@
 */
 
 #ifndef __forceinline
-#define __forceinline __attribute__((always_inline))
+#define __forceinline inline
 #endif
 
 #include <node.h>
