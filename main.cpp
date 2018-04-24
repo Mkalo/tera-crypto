@@ -90,7 +90,7 @@ namespace {
 			}
 		}
 
-		inline __attribute__((always_inline)) void next() {
+		inline void next() {
 			int result = b1 & b2 | b3 & (b1 | b2);
 
 			if(result == b1) {
